@@ -1,7 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+
 img {
     display: block;
     margin: auto;
     width: 100%;
+    padding-top: 4%;
 }
 
 h1 {
@@ -29,6 +36,12 @@ li {
 
 li a {
     text-decoration: none;
+    color: #333;
+    transition: color .5s;
+}
+
+li a:hover {
+    color: #c0abcc;
 }
 
 body {
